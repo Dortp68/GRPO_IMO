@@ -1,0 +1,13 @@
+unsloth
+vllm
+pillow
+git+https://github.com/huggingface/trl.git@e95f9fb74a3c3647b86f251b7e230ec51c64b72b
+transformers
+peft
+Levenshtein
+tqdm
+pandas
+datasets
+torch
+numpy
+kagglehub
