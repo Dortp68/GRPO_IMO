@@ -76,6 +76,8 @@ After training, the model shows improved performance on IMO problems:
 - **Accuracy**: ~54% correct answers
 - **Solution Quality**: ~28% average similarity score
 
+Fine-tuned model: https://huggingface.co/Dortp58/deepseekr1-qwen-1.5B_grpo_imo
+
 ## Citation
 
 Based on the DeepSeek-R1 paper: [https://arxiv.org/abs/2501.12948](https://arxiv.org/abs/2501.12948)
