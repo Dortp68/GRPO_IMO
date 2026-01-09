@@ -14,21 +14,6 @@ This pet-project demonstrates how to fine-tune a reasoning language model using 
 - **Fast Inference**: Uses Unsloth and vLLM for optimized training and inference
 - **Modular Code**: Clean, structured codebase separated into logical modules
 
-## Architecture
-
-```
-├── configs/           # Configuration files
-├── src/              # Source code modules
-│   ├── data_prep.py  # Data loading and preprocessing
-│   ├── rewards.py    # Reward function implementations
-│   ├── train.py      # Training pipeline
-│   └── evaluate.py   # Evaluation utilities
-├── models/           # Saved models and checkpoints
-├── data/             # Dataset storage
-├── main.py           # Entry point
-└── requirements.txt  # Dependencies
-```
-
 ## Installation
 
 1. Clone the repository:
@@ -90,24 +75,6 @@ After training, the model shows improved performance on IMO problems:
 - **Formatting**: ~68% properly formatted responses
 - **Accuracy**: ~54% correct answers
 - **Solution Quality**: ~28% average similarity score
-
-## Requirements
-
-- Python 3.8+
-- CUDA-compatible GPU
-- 8GB+ VRAM recommended
-- Internet connection for dataset download
-
-## Dependencies
-
-Key libraries:
-- `unsloth`: Optimized training framework
-- `trl`: Transformers Reinforcement Learning
-- `transformers`: Hugging Face transformers
-- `vllm`: Fast inference engine
-- `peft`: Parameter-efficient fine-tuning
-- `datasets`: Data handling
-- `kagglehub`: Dataset download
 
 ## Citation
 
